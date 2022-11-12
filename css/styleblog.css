@@ -1,0 +1,445 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  background-color: #fff;
+}
+
+header {
+  width: 100%;
+  padding: 0.1px;
+}
+
+nav {
+  top: -20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 1000px;
+}
+
+nav>ul {
+  display: table;
+  overflow: hidden;
+  width: 100%;
+  background: #000;
+  position: relative;
+}
+
+nav>ul li {
+  display: table-cell;
+}
+
+/**/
+nav>ul li a {
+  color: #fff;
+  display: block;
+  line-height: 20px;
+  padding: 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3 ease;
+  -ms-transition: all .3 ease;
+  -o-transition: all .3 ease;
+  transition: all .3 ease;
+}
+
+nav>ul>li>ul>li a:hover {
+  background: #5da5a2;
+}
+
+nav>ul>li>a span {
+  background: #174459;
+  display: block;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: -55px;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3 ease;
+  -ms-transition: all .3 ease;
+  -o-transition: all .3 ease;
+  transition: all .3 ease;
+
+}
+
+nav>ul>li>a span .icon {
+  display: block;
+  line-height: 60px;
+
+}
+
+nav>ul>li>a:hover>span {
+  top: 0;
+}
+
+.sect {
+  width: 100%;
+  min-height: 500px;
+  padding: 90px;
+}
+
+#sect3 {
+  background-color: #ec91c9e8;
+  color: #fff;
+}
+
+.sect1 {
+  margin-top: 120px;
+}
+
+.sect {
+  margin-top: 200px;
+}
+
+#sect2 {
+  background-color: #f4b9b8;
+  color: #333;
+}
+
+/*.video1 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 105%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+}*/
+
+.video2 {
+  width: 20%;
+  display: inline-block;
+}
+
+
+
+h1 {
+  margin: 0;
+  
+  padding-left: 2rem;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 3rem;
+  padding-left: 2rem;
+}
+
+/*Colores*/
+nav ul li a .Primero {
+  background: #eea29a;
+}
+
+nav ul li a .Segundo {
+  background: #5da5a2;
+}
+
+nav ul li a .Tercero {
+  background: #eca1a6;
+}
+
+nav ul li a .Cuarto {
+  background: #174459;
+}
+
+nav ul li a .Quinto {
+  background: #e06377;
+}
+
+
+.marca {
+  position: relative;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  color: rgba(24, 20, 20, 0.6);
+
+}
+
+.fuente {
+  font-family: 'Abril Fatface', cursive;
+  position: absolute;
+  left: 290px;
+  top: 250px;
+  font-size: 90px;
+}
+
+.fuente2 {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+
+  left: 190px;
+  right: 170px;
+  top: 420px;
+  font-size: 40px;
+  color: #000;
+  text-align: center;
+}
+
+.fuente3 {
+  position: absolute;
+  font-family: 'Oswald', sans-serif;
+  display: inline-block;
+  left: 190px;
+  right: 170px;
+  font-size: 40px;
+  color: #900C3F;
+  text-align: center;
+}
+
+.fuente4 {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.video1 {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  display: inline;
+}
+
+/*png*/
+.png1 {
+  width: 70px;
+  position: absolute;
+  left: 300;
+  top: 340px;
+  right: 250px;
+  filter: brightness(1);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #ec1edb;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec1e9d;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+}
+
+.oraguntan {
+  display: block;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+.column {
+  float: left;
+  width: 16.66%;
+
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+#caption{
+  padding: 20px;
+  font-size: 1.5rem;
+}
+
+.media{
+  display: flex;
+  justify-content: space-around;
+}
+.banner_img{
+  animation: movimiento 2.5s linear infinite;
+  display: block;
+  margin-top: 100px;
+}
+
+@keyframes movimiento {
+  0% {
+     transform: translatey(0);
+  }
+
+  50% {
+     transform: translatey(30px);
+  }
+
+  100% {
+     transform: translatey(0);
+  }
+}
+.fimg{
+  margin-top: 40px;
+  width: 1348px;
+  height: 400px;
+}
+.foh4 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 227rem ;
+  left: 30rem;
+  font-size:50px ;
+  color: rgb(12, 1, 1); text-shadow: #860000 0.1em 0.1em 0.2em
+}
+.icon1{
+  position: absolute;
+  top: 234rem;
+  left: 30rem;
+  height: 50px;
+  width:50px ;
+}
+.icon2{
+  position: absolute;
+  top: 234rem;
+  left: 40rem;
+}
+.icon3{
+  position: absolute;
+  top: 232rem;
+  left: 33rem;
+}
+.ho4{
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 230rem ;
+  left: 5rem;
+  font-size:20px ;
+  color: rgb(12, 1, 1);
+}
+.afo{
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 225rem ;
+  left: 5rem;
+  font-size:18px ;
+  color: rgb(12, 1, 1);
+}
+.afo1{
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 227rem ;
+  left: 13rem;
+  font-size:18px ;
+  color: rgb(12, 1, 1);
+}
+.favicon{
+  position: absolute;
+  top: 230rem ;
+  left: 5rem;
+}
+.sec3ii{
+  position: absolute;
+  left: 410px;
+  margin-top: 0px;
+}
+.secih{
+  left: 420px;
+  position: absolute;
+  margin-top: 60px;
+  font-size: 30pt;
+}
+.ms{
+  position: absolute;
+  margin-top: 200px;
+  color:black ;
+}
+.ms1{
+  left: 700px;
+  position: absolute;
+  margin-top: 200px;
+  color:black ;
+}
+.musiim{
+  position: absolute;
+  left: 120px;
+  animation: movimiento 2.5s linear infinite;
+  display: block;
+  
+}

@@ -1,0 +1,25 @@
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.justificar-el-texto {
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+nav{
+    background-color: blueviolet;
+}
+footer
+h1{
+    background-color: brown;
+   
+    text-justify: center;
+    text-align: stretch;
+}
+.w{
+    text-align: center;
+    padding: 50px;
+}

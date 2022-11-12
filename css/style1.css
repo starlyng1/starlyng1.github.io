@@ -1,0 +1,50 @@
+body {
+   background-color: #ff99ff;
+   width: 90%;
+   margin: 0 auto;
+}
+
+header {
+   background-color: #925e92;
+   width: 100%;
+   margin: 0%;
+   font-size: 20px;
+}
+
+.camara-bebes {
+   margin-top: 20px;
+}
+
+
+
+section {
+   background-color: rgba(232, 13, 57, 0.814);
+
+}
+
+article {
+   background-color: rgb(195, 103, 138);
+}
+
+.camara2{
+   display: block;
+   width: 550px; height: 300px;
+   margin-left: 500px ;
+}
+
+
+
+
+.centrar {
+   display: flex;
+}
+
+form {
+   text-align: center;
+   margin-top: 50px;
+}
+
+input{
+   width: 200px;
+   height: 30px;
+}

@@ -1,0 +1,224 @@
+nav {
+    top: -20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+  }
+  
+  nav>ul {
+    display: table;
+    overflow: hidden;
+    width: 100%;
+    background: #000;
+    position: relative;
+  }
+  
+  nav>ul li {
+    display: table-cell;
+  }
+  
+  /**/
+  nav>ul li a {
+    color: #fff;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3 ease;
+    -ms-transition: all .3 ease;
+    -o-transition: all .3 ease;
+    transition: all .3 ease;
+  }
+  
+  nav>ul>li>ul>li a:hover {
+    background: #5da5a2;
+  }
+  
+  nav>ul>li>a span {
+    background: #174459;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3 ease;
+    -ms-transition: all .3 ease;
+    -o-transition: all .3 ease;
+    transition: all .3 ease;
+  
+  }
+  
+  nav>ul>li>a span .icon {
+    display: block;
+    line-height: 60px;
+  
+  }
+  
+  nav>ul>li>a:hover>span {
+    top: 0;
+  }
+  nav ul li a .Primero {
+    background: #eea29a;
+  }
+  
+  nav ul li a .Segundo {
+    background: #5da5a2;
+  }
+  
+  nav ul li a .Tercero {
+    background: #eca1a6;
+  }
+  
+  nav ul li a .Cuarto {
+    background: #174459;
+  }
+  
+  nav ul li a .Quinto {
+    background: #e06377;
+  }
+  .video1 {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    display: inline;
+  }  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    position: relative;
+    margin: 0;
+    background-color: #fff;
+  }
+  
+  header {
+    width: 100%;
+    padding: 0.1px;
+}
+
+.contactoimg{
+    margin-top:50rem;
+    height: 100vh;
+    background-image: url(../img/young.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-left: 0;
+}
+
+
+#sect3 {
+  background-color: #e9c3dae8;
+  color: #fff;
+  margin-top: 10rem;;
+  min-height: 30rem;
+}
+.sec3ii{
+  position: absolute;
+  left: 510px;
+  margin-top: 26px;
+  width: 400px;
+}
+.secih{
+  left: 550px;
+  position: absolute;
+  margin-top: 60px;
+  font-size: 30pt;
+}
+.ms{
+margin-left: 50px;
+color: #000;
+position: absolute;
+margin-top: 180px;
+}
+.ms1{
+  margin-left: 480px;
+  color: #000;
+  margin-top: 0;
+  position: absolute;
+  margin-top: 200px;
+}
+
+
+
+.musiim{
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.ms2{
+  margin-left: 1000px;
+  color: #000;
+  margin-top: 200px;
+  position: absolute;
+}
+.fimg{
+  margin-top: 180px;
+  width: 1348px;
+  height: 400px;
+}
+.foh4 {
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 54rem ;
+  left: 30rem;
+  font-size:50px ;
+  color: rgb(12, 1, 1); text-shadow: #860000 0.1em 0.1em 0.2em
+}
+.icon1{
+  position: absolute;
+  top: 60rem;
+  left: 30rem;
+  height: 50px;
+  width:50px ;
+}
+.icon2{
+  position: absolute;
+  top: 60rem;
+  left: 40rem;
+}
+.icon3{
+  position: absolute;
+  top: 59rem;
+  left: 33rem;
+}
+.ho4{
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 60rem ;
+  left: 5rem;
+  font-size:20px ;
+  color: rgb(12, 1, 1);
+}
+.afo{
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 62rem ;
+  left: 5rem;
+  font-size:18px ;
+  color: rgb(12, 1, 1);
+}
+.afo1{
+  position: absolute;
+  font-family: 'Bebas Neue', cursive;
+  top: 63rem ;
+  left: 13rem;
+  font-size:18px ;
+  color: rgb(12, 1, 1);
+}
+.favicon{
+  position: absolute;
+  top: 65rem ;
+  left: 5rem;
+}

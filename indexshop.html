@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Luisa Gomez">
+  <meta name="desciption" content="Esta página va dirigida a madres">
+  <meta name="keywords" content="tienda online">
+  <title>Girasol De Melón</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Oswald:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="Fonts.css">
+  <link rel="stylesheet" href="css/styleshop.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navpoc">
+      <ul>
+        <li><a href="index.html" a><span class="primero"><i class="icon icon-home "></i></span>Home</li>
+        <li><a href="indexblog.html" a><span class="Segundo"><i class="icon icon-images "></i></span>Blog</li>
+        <li><a href="indexshop.htmlw" a><span class="Tercero"><i class="icon icon-cart "></i></span>Shop</li>
+        <li><a href="#" a><span class="Cuarto"><i class="icon icon-film "></i></span>Camara</li>
+        <li><a href="indexnosotros.html" a><span class="Quinto"><i class="icon icon-address-book "></i></span>Contacto</li>
+
+      </ul>
+    </nav>
+    <div class="marca">
+    </div>
+    <section id="sect1" class="sect">
+      <section class="primeraparte">
+        <div class="slideshow-container">
+
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img class="bebesimg" src="img/diseño-6.jpg" style="width:100%">
+            <div class="text">Girasol de melón</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img class="bebesimg" src="img/diseño-4.jpg" style="width:100%">
+            <div class="text">Girasol de melón</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img class="bebesimg" src="img/diseño-5.jpg" style="width:100%">
+            <div class="text">Girasol de melón</div>
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+
+
+  </header>
+  <section class="fotos-alini">
+    <div>
+    
+      <button class="fill position">Fill In</button>
+      
+      <div class="compa">
+        <img src="img/img-diver1.jpg" class="compa1" alt=""
+          style="width: 420px; height: 640px; object-fit: cover; object-position: 50% 50%;">
+        <img src="img/diseño-2.jpg" class="compa2" alt=""
+          style="width: 420px; height: 640px; object-fit: cover; object-position: 50% 50%;">
+        <img src="img/diseño-3.jpg" class="compa3" alt=""
+          style="width: 420px; height: 640px; object-fit: cover; object-position: 50% 50%;">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="card">
+    <h1 class="title1">card conefecto</h1>
+    <div class="containers">
+      <div class="cards">
+        <img src="img/cards1.jpg">
+        <h4>Vestimentas </h4>
+        <p> Podras escoger la ropa que quieras, para perfecionar el estilo de tu pequellin.</p>
+        <a href="">Leer más</a>
+      </div>
+
+
+      <div class="cards">
+        <img src="img/cards2.jpg">
+        <h4>Biberones, chupetes y vasos </h4>
+        <p> Todo mini y de facil uso.</p>
+        <a href="">Leer más</a>
+      </div>
+
+      <div class="cards">
+        <img src="img/cards3.jpg">
+        <h4>Juguetes</h4>
+        <p> Diversos juguetes para el entretenimiento de tus hijos.</p>
+        <a href="">Leer más</a>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script></body>
+
+<footer>
+  <section>
+  <img class="fimg" src="img/footer1.jpg">
+  <h4 class="foh4"> Girasol de Melón</h4>
+  <img class="icon1" src="img/icons8-facebook-150.png">
+  <img class="icon2" src="img/icons8-twitter-48.png">
+  <img class="icon3" src="img/icons8-gmail-logo-100.png">
+  <h4 class="ho4">Contactanos </h4>
+  <a class="afo">Número de telefono:</a>
+  <a class="afo1">316 5136 653</a>
+  <img class="favicon" src="img/favicon.ico">
+</section>
+</footer>
+
+</html>
